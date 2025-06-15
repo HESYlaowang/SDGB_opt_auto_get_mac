@@ -56,10 +56,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Z4H3ZcG2F/aVL3dh8GPZH1KYurI=
+			1LUZum606EhFFgjzby0fn7xyulY=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"07975ebd3764ca8744014a715358784fe5b514e9" or cdhash H"6781f765c1b617f6952f7761f063d91f5298bab2"</string>
+			<string>identifier document and certificate leaf = H"dd0b2f95a43342851607c5c0dd82af4d07d6bd6c"</string>
 		</dict>
 	</dict>
 	<key>rules</key>
