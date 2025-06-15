@@ -2,6 +2,12 @@
 cd "$(dirname "$0")"
 
 python3 ./opt.py
+exit_code=$?
+
+if [ $exit_code -eq 100 ]; then
+  echo "See You Next Play"
+  exit 0
+fi
 
 OPT_DIR="opt"
 OPT_BIN="OPT.BIN"

@@ -136,7 +136,7 @@ def main():
                 choice = input("\n请输入要下载的文件序号 (输入0退出): ")
                 if choice == '0':
                     print("程序退出")
-                    return
+                    sys.exit(100)
                 choice = int(choice)
                 if 1 <= choice <= len(files):
                     target_url = urls[choice - 1]
